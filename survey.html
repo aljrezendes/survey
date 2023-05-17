@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en US">
+
+  <head>
+    <meta charset="utf-8">
+    <title>App Academy Survey</title>
+  </head>
+
+
+  <body>
+   <h1>Programming Survey</h1>
+
+   <form action="/form-handling-url" method="post">
+    <fieldset>
+
+     <legend>Add user</legend>
+
+     <div>
+      <label for="firstName">First name</label>
+      <input type="text" id="firstName" name="first_name">
+     </div>
+
+     <div>
+      <label for="lastName">Last name</label>
+      <input type="text" id="lastName" name="last_name">
+     </div>
+
+     <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email_address">
+     </div>
+
+     <div>
+      <label for="status">Status</label>
+      <select id="status" name="user_status_name">
+        <option value="student">Student</option>
+        <option value="instructor">Instructor</option>
+        <option value="guest">Guest</option>
+      </select>
+      </div>
+
+
+
+       <p>Choose your favorite programming language</p>
+
+       <div>
+       <input type="radio" id="html" name="fav_language" value="HTML">
+       <label for="html">HTML</label>
+      </div>
+
+      <div>
+       <input type="radio" id="css" name="fav_language" value="CSS">
+       <label for="css">CSS</label>
+      </div>
+
+      <div>
+       <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+       <label for="javascript">JavaScript</label>
+      </div>
+
+      <div>
+       <button type="add">Add this person</button>
+      </div>
+
+      <div>
+       <label for="comments">Comments</label>
+       <textarea id="comments" name="comments"></textarea>
+      </div>
+
+      <div>
+       <label for="date">Date</label>
+       <input type="date" id="date" name="date">
+      </div>
+
+      <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+      <label for="newsletter">Sign up for newsletter</label><br>
+
+      <input type="checkbox" id="agree" name="agreaa" value="agree">
+      <label for="agree">Agree to terms and conditions</label><br>
+
+      <div>
+       <button type="submit">Submit</button>
+      </div>
+
+    </fieldset>
+   </form>
+  </body>
+</html>
